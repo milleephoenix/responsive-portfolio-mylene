@@ -1,7 +1,10 @@
-body {
-  background-color: black;
+:root {
+  --bg-color: rgb(49, 49, 49);
+  --bg-img-stars: url("images/17497.jpg");
 }
-
+body {
+  background-color: var(--bg-color);
+}
 h1 {
   font-family: "Bree Serif", serif;
   color: yellow;
@@ -10,4 +13,8 @@ h1 {
 p {
   color: yellow;
   font-family: "Space Mono", monospace;
+}
+
+.hero p {
+  background-image: url("images/17497.jpg");
 }
