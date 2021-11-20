@@ -1,20 +1,87 @@
 :root {
-  --bg-color: rgb(49, 49, 49);
-  --bg-img-stars: url("images/17497.jpg");
+  --bg-color: rgb(20, 20, 20);
+  --main-color: #ffff00;
+  --bg-img-stars: url("/images/17497.jpg");
 }
+
 body {
   background-color: var(--bg-color);
 }
+
 h1 {
   font-family: "Bree Serif", serif;
-  color: yellow;
+  color: var(--main-color);
+  font-size: 96px;
 }
 
-p {
-  color: yellow;
-  font-family: "Space Mono", monospace;
+.navbar {
+  max-height: 45px;
+  font-family: "Bree Serif", serif;
 }
 
+.navbar:hover {
+  max-height: 60px;
+  transition: ease-in-out 90ms;
+}
+
+.navbar:not(:hover) {
+  transition: ease-in-out 90ms;
+}
+
+.navbar-toggler {
+  border: 5px solid;
+  opacity: 100%;
+  border-color: var(--main-color);
+}
+
+.hero {
+  background-image: var(--bg-img-stars);
+  text-align: center;
+  padding: 40px 0px;
+  border: 1.75px solid #ffffff;
+}
 .hero p {
-  background-image: url("images/17497.jpg");
+  color: var(--main-color);
+  font-family: "Space Mono", monospace;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-family: "Bree Serif", serif;
+  color: var(--main-color);
+}
+
+#contactButton {
+  color: black;
+  background-color: var(--main-color);
+  border: var(--main-color);
+}
+
+#contactButton:hover {
+  color: white;
+  background-color: blue;
+}
+
+.hr1 {
+  border: 1.5px solid #60e76b;
+  opacity: 100%;
+  display: block;
+  margin: 0;
+  background-color: #60e76b;
+}
+.hr2 {
+  border: 1.5px solid #e97e8c;
+  opacity: 100%;
+  display: block;
+  margin: 0;
+  background-color: #e97e8c;
+}
+.hr3 {
+  border: 1.5px solid #6997d3;
+  opacity: 100%;
+  display: block;
+  margin: 0;
+  background-color: #6997d3;
 }
