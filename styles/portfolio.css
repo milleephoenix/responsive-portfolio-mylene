@@ -24,8 +24,7 @@
   }
   .row {
     width: 100%;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
   }
 }
 
