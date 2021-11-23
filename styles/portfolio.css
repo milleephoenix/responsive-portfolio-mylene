@@ -138,17 +138,11 @@ img {
   border-image: linear-gradient(45deg, #8a0674, #dbac10, #8207b3) 1;
   background-color: var(--bg-color);
 }
+.end-1 a,
 .end-1 {
   font-family: "Space Mono", monospace;
+  text-decoration: none;
   color: var(--main-color);
-  margin-bottom: 0;
-  font-size: 13px;
-  text-align: center;
-}
-.end-2 {
-  font-family: "Space Mono", monospace;
-  color: var(--main-color);
-  margin-bottom: 0;
   font-size: 13px;
   text-align: center;
 }
