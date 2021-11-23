@@ -20,6 +20,11 @@ h1 {
   color: var(--main-color);
   font-size: 96px;
 }
+.content-header {
+  color: var(--main-color);
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
 
 .navbar {
   max-height: 45px;
@@ -47,7 +52,7 @@ h1 {
   justify-content: center;
   padding: 40px 0px;
   border: 1.75px solid #ffffff;
-  height: 450px;
+  height: 400px;
 }
 .hero p {
   color: var(--main-color);
