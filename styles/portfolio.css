@@ -20,10 +20,30 @@ h1 {
   color: var(--main-color);
   font-size: 96px;
 }
+
+h2 {
+  font-family: "Bree Serif", serif;
+  color: var(--main-color);
+  font-size: 50px;
+}
+
+img,
+.hunger {
+  width: 400px;
+  max-height: 300px;
+}
+
 .content-header {
   color: var(--main-color);
   font-family: "Space Mono", monospace;
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.project-desc {
+  font-family: "Space Mono", monospace;
+  color: var(--main-color);
 }
 
 .navbar {
@@ -98,4 +118,10 @@ h1 {
   display: block;
   margin: 0;
   background-color: #6997d3;
+}
+
+.row {
+  height: 375px;
+  padding: 5px 25px;
+  border: 1px solid #ffffff;
 }
