@@ -44,8 +44,10 @@ h1 {
 .hero {
   background-image: var(--bg-img-stars);
   text-align: center;
+  justify-content: center;
   padding: 40px 0px;
   border: 1.75px solid #ffffff;
+  height: 450px;
 }
 .hero p {
   color: var(--main-color);
