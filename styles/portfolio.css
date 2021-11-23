@@ -127,6 +127,11 @@ img {
   background-color: blue;
 }
 
+.end-1 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 .hr1 {
   border: 1.5px solid #60e76b;
   opacity: 100%;
@@ -164,4 +169,7 @@ img {
   color: var(--main-color);
   font-size: 13px;
   text-align: center;
+}
+.end-1 a {
+  text-decoration: underline;
 }
