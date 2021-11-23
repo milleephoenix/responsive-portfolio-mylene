@@ -12,13 +12,48 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: var(--bg-img-stars);
 }
 
 h1 {
   font-family: "Bree Serif", serif;
   color: var(--main-color);
   font-size: 96px;
+}
+
+h2 {
+  font-family: "Bree Serif", serif;
+  color: var(--main-color);
+  font-size: 45px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hunger {
+  width: 500px;
+  max-height: 332px;
+}
+
+.content-header {
+  color: var(--main-color);
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content-image {
+  background-color: #252525;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+
+.project-desc {
+  font-family: "Space Mono", monospace;
+  color: var(--main-color);
 }
 
 .navbar {
@@ -44,8 +79,10 @@ h1 {
 .hero {
   background-image: var(--bg-img-stars);
   text-align: center;
+  justify-content: center;
   padding: 40px 0px;
   border: 1.75px solid #ffffff;
+  height: 400px;
 }
 .hero p {
   color: var(--main-color);
@@ -91,4 +128,26 @@ h1 {
   display: block;
   margin: 0;
   background-color: #6997d3;
+}
+
+.row {
+  height: 375px;
+  padding: 5px 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(45deg, #8a0674, #dbac10, #8207b3) 1;
+  background-color: var(--bg-color);
+}
+.end-1 {
+  font-family: "Space Mono", monospace;
+  color: var(--main-color);
+  margin-bottom: 0;
+  font-size: 13px;
+  text-align: center;
+}
+.end-2 {
+  font-family: "Space Mono", monospace;
+  color: var(--main-color);
+  font-size: 10px;
+  text-align: center;
 }
