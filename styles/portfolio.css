@@ -4,6 +4,13 @@
   --bg-img-stars: url("/images/17497.jpg");
 }
 
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 body {
   background-color: var(--bg-color);
 }
