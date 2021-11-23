@@ -148,6 +148,7 @@ img {
 .end-2 {
   font-family: "Space Mono", monospace;
   color: var(--main-color);
-  font-size: 10px;
+  margin-bottom: 0;
+  font-size: 13px;
   text-align: center;
 }
