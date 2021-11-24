@@ -24,8 +24,7 @@
   }
   .row {
     max-width: 100%;
-    justify-content: center;
-    height: auto;
+    margin: 0 auto;
   }
 }
 
