@@ -172,9 +172,8 @@ img {
   text-decoration: underline;
 }
 
-/*about page CSS*/
 @media (max-width: 768px) {
-  .about-row {
+  .content-row {
     text-align: center;
     max-width: 100%;
     margin: 0, auto;
@@ -193,10 +192,10 @@ img {
   font-family: "Space Mono", monospace;
 }
 
-.about-container {
+.content-container {
   padding: 0 0;
 }
-.about-row {
+.content-row {
   background: none;
   border: none;
 }
