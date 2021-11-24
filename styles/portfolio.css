@@ -223,3 +223,24 @@ img {
   padding: 5px;
   margin: 0 auto;
 }
+
+.contact-link {
+  font-family: "Bree Serif", serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+.fa-gradient {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(235, 222, 46)),
+    to(rgb(159, 8, 197))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
