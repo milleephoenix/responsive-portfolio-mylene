@@ -4,7 +4,7 @@
   --bg-img-stars: url("/images/17497.jpg");
 }
 
-@media (max-width: 657px) {
+@media (max-width: 667px) {
   .hero {
     text-align: center;
     justify-content: center;
@@ -71,6 +71,14 @@ h2 {
 img {
   max-width: 500px;
   max-height: 247px;
+}
+
+.container-fluid {
+  max-width: 1700px;
+}
+
+.navbar .container-fluid {
+  max-width: 2500px;
 }
 
 .index-header {
@@ -243,4 +251,23 @@ img {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.footer-icons a {
+  font-size: 27px;
+  background-color: var(--main-color);
+  padding: 8px 8px;
+  border-radius: 35px;
+  margin: 0 5px;
+}
+
+.footer-icons a:hover {
+  transition: ease-in-out 200ms;
+  background-color: blue;
+}
+
+.footer-icons i {
+  height: 27px;
+  width: 35px;
+  margin: 0 auto;
 }
